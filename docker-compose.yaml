@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "Strongpassword!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P Strongpassword! -Q 'SELECT 1' -C"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - sql_data:/var/opt/mssql
+    networks:
+      - booking_net
+
+  api:
+    build:
+      context: .
+    container_name: apartment_api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=BookingDB;User Id=sa;Password=Strongpassword!;TrustServerCertificate=True;
+    ports:
+      - "5000:8080"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    networks:
+      - booking_net
+
+volumes:
+  sql_data:
+
+networks:
+  booking_net:

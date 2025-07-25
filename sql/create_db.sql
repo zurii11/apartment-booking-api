@@ -1,0 +1,2 @@
+IF DB_ID('BookingDB') IS NULL
+    CREATE DATABASE BookingDB;

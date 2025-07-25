@@ -1,0 +1,14 @@
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\bin\Debug\net8.0\ConcurrentSimulation.exe
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\bin\Debug\net8.0\ConcurrentSimulation.deps.json
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\bin\Debug\net8.0\ConcurrentSimulation.runtimeconfig.json
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\bin\Debug\net8.0\ConcurrentSimulation.dll
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\bin\Debug\net8.0\ConcurrentSimulation.pdb
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ConcurrentSimulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ConcurrentSimulation.AssemblyInfoInputs.cache
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ConcurrentSimulation.AssemblyInfo.cs
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ConcurrentSimulation.csproj.CoreCompileInputs.cache
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ConcurrentSimulation.dll
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\refint\ConcurrentSimulation.dll
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ConcurrentSimulation.pdb
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ConcurrentSimulation.genruntimeconfig.cache
+C:\Users\Legion Slim 5\dev\apartment-booking-app\ConcurrentSimulation\obj\Debug\net8.0\ref\ConcurrentSimulation.dll

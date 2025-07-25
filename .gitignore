@@ -1,0 +1,53 @@
+# .NET Core build output
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# IDE files
+.idea/
+.vscode/
+*.sln.iml
+
+# NuGet
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Environment settings
+appsettings.Development.json 
+*.env
+
+# Logs
+*.log
+logs/
+
+# Include sql folder
+!sql/
+!sql/**
+
+# Include ConcurrentSimulation project
+!ConcurrentSimulation/
+!ConcurrentSimulation/**
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
