@@ -79,8 +79,8 @@ JWT-based authentication at /api/auth/register and /api/auth/login. Right now al
 |--------|--------------------------------------------------------------------------|----------------------------------------------------|
 | GET    | `/Apartments/available?start_date=yyyy-mm-dd&end_date=yyyy-mm-dd`         | List available apartments for a date range         |
 | GET    | `/Apartments/{id}/availability?start-date=yyyy-mm-dd&end_date=yyyy-mm-dd` | Check if a specific apartment is available         |
-| POST   | `/Bookings`                                                              | Create a new booking *(auth required)*             |
-| DELETE | `/Bookings/{id}`                                                         | Cancel an existing booking *(auth required)*       |
+| POST   | `/Bookings`                                                              | Create a new booking                                |
+| DELETE | `/Bookings/{id}`                                                         | Cancel an existing booking                          |
 
 ---
 
